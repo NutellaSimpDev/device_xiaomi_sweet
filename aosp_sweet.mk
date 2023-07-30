@@ -20,10 +20,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
-# SkylineUI Maintainer Flags
-SKYLINEUI_MAINTAINER := NutellaDev
-CUSTOM_BUILD_TYPE := OFFICIAL
-
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_sweet
 PRODUCT_DEVICE := sweet
