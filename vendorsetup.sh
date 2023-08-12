@@ -1,7 +1,7 @@
 echo 'Starting to clone stuffs needed for your device'
 echo 'Cloning Common Tree [1/5]'
 # Sweet-Common Tree
-git clone https://github.com/NutellaSimpDev/device_xiaomi_sm6150-common.git -b crdroid device/xiaomi/sm6150-common
+git clone https://github.com/NutellaSimpDev/device_xiaomi_sm6150-common.git -b TDA device/xiaomi/sm6150-common
 
 echo 'Cloning Vendor tree [2/5]'
 # Device Vendor Tree
@@ -15,7 +15,7 @@ echo 'Cloning Kernel tree [4/5]'
 # Kernel Tree
 git clone https://github.com/vantoman/kernel_xiaomi_sm6150.git -b 13 kernel/xiaomi/sm6150
 
-echo 'Cloning Memecam [5/5]'
-# Memecam
-git clone https://github.com/aosp-playground/android_vendor_xiaomi_sweet-miuicamera.git -b thirteen vendor/xiaomi/sweet-miuicamera
+echo 'Cloning hardware_xiaomi [5/5]'
+# Hardware_xiaomi
+git clone https://github.com/ArrowOS-Devices/android_hardware_xiaomi.git -b arrow-13.1 hardware/xiaomi
 echo 'Completed, Now proceeding to lunch'
