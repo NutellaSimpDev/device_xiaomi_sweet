@@ -13,7 +13,7 @@ git clone https://github.com/NutellaSimpDev/vendor_xiaomi_sm6150-common.git -b t
 
 echo 'Cloning Kernel tree [4/5]'
 # Kernel Tree
-git clone https://github.com/vantoman/kernel_xiaomi_sm6150.git -b 13 kernel/xiaomi/sm6150
+git clone https://github.com/itsshashanksp/kernel_xiaomi_sm6150 -b t13 kernel/xiaomi/sm6150
 
 echo 'Cloning Memecam [5/5]'
 # Memecam
