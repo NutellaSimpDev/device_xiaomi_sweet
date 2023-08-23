@@ -23,6 +23,11 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 PRODUCT_PACKAGES += \
     libtinycompress
 
+# Remove Packages for Dolby Support
+PRODUCT_PACKAGES += \
+    RemovePackagesDolby
+
+# Audio configs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
     $(LOCAL_PATH)/configs/audio/mixer_paths_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_idp.xml \
