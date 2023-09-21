@@ -19,3 +19,8 @@ echo 'Cloning Memecam [5/6]'
 # Memecam
 git clone https://gitlab.com/unsatifsed27/miuicamera.git -b leica vendor/xiaomi/sweet-miuicamera
 echo 'Completed, Now proceeding to lunch'
+
+echo 'Cloning Sony Dolby [5/6]'
+# Dolby
+git clone https://github.com/omnitrix21/sony_vendor_dolby.git -b 13 vendor/dolby
+echo 'Completed, Now proceeding to lunch'
